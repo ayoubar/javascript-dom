@@ -24,12 +24,13 @@ form.addEventListener('submit', runEvent);
 // Input
 // taskInput.addEventListener('input', runEvent);
 // Change
-select.addEventListener('change', runEvent);
+// select.addEventListener('change', runEvent);
 
 function runEvent(e) {
   // e.preventDefault();
   console.log(`EVENT TYPE: ${e.type}`);
-  console.log(e.target.value);
+  console.log(taskInput.value);
+  console.log(select.value);
   // alert('vous collez  ', e.target.value);
 
   //console.log(e.target.value);
