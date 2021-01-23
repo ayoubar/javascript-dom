@@ -13,7 +13,7 @@ const heading = document.querySelector('h5');
 // Mouseenter
 // card.addEventListener('mouseenter', runEvent);
 // Mouseleavejunior mid level senior
-card.addEventListener('mouseleave', runEvent);
+// card.addEventListener('mouseleave', runEvent);
 // Mouseover
 // card.addEventListener('mouseover', runEvent);
 // Mouseout
